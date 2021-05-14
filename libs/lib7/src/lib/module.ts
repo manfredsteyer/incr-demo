@@ -90,7 +90,7 @@
   export class Lib7Component implements OnInit {
       constructor() { }
   
-      title = 'lib7-component*';
+      title = 'lib7-component*****';
   
       items = [1,2,3,4,5,6];
 
