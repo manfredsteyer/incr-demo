@@ -1,1 +1,1 @@
-export * from './lib/lib264';
+export * from './lib/module';

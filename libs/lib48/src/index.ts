@@ -1,1 +1,1 @@
-export * from './lib/lib48';
+export * from './lib/module';
