@@ -1,0 +1,9 @@
+{
+  "cli": "nx",
+  "id": "generate-mfs",
+  "type": "object",
+  "properties": {
+    "name": {
+    }
+  }
+}
