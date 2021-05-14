@@ -10,7 +10,7 @@
   export class Lib7Component implements OnInit {
       constructor() { }
   
-      title = 'lib7-component';
+      title = 'lib7-component!!!';
   
       ngOnInit() { }
   }

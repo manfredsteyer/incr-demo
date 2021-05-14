@@ -39,7 +39,7 @@
       "prefix": "my-workspace",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@nrwl/angular:webpack-browser",
           "options": {
             "outputPath": "dist/apps/demo-app",
             "index": "apps/demo-app/src/index.html",
@@ -155,7 +155,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib0",
@@ -186,7 +186,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib1",
@@ -217,7 +217,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib2",
@@ -248,7 +248,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib3",
@@ -279,7 +279,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib4",
@@ -310,7 +310,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib5",
@@ -341,7 +341,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib6",
@@ -372,7 +372,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib7",
@@ -403,7 +403,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib8",
@@ -434,7 +434,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib9",
@@ -465,7 +465,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib10",
@@ -496,7 +496,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib11",
@@ -527,7 +527,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib12",
@@ -558,7 +558,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib13",
@@ -589,7 +589,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib14",
@@ -620,7 +620,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib15",
@@ -651,7 +651,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib16",
@@ -682,7 +682,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib17",
@@ -713,7 +713,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib18",
@@ -744,7 +744,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib19",
@@ -775,7 +775,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib20",
@@ -806,7 +806,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib21",
@@ -837,7 +837,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib22",
@@ -868,7 +868,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib23",
@@ -899,7 +899,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib24",
@@ -930,7 +930,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib25",
@@ -961,7 +961,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib26",
@@ -992,7 +992,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib27",
@@ -1023,7 +1023,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib28",
@@ -1054,7 +1054,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib29",
@@ -1085,7 +1085,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib30",
@@ -1116,7 +1116,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib31",
@@ -1147,7 +1147,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib32",
@@ -1178,7 +1178,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib33",
@@ -1209,7 +1209,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib34",
@@ -1240,7 +1240,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib35",
@@ -1271,7 +1271,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib36",
@@ -1302,7 +1302,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib37",
@@ -1333,7 +1333,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib38",
@@ -1364,7 +1364,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib39",
@@ -1395,7 +1395,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib40",
@@ -1426,7 +1426,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib41",
@@ -1457,7 +1457,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib42",
@@ -1488,7 +1488,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib43",
@@ -1519,7 +1519,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib44",
@@ -1550,7 +1550,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib45",
@@ -1581,7 +1581,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib46",
@@ -1612,7 +1612,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib47",
@@ -1643,7 +1643,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib48",
@@ -1674,7 +1674,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib49",
@@ -1705,7 +1705,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib50",
@@ -1736,7 +1736,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib51",
@@ -1767,7 +1767,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib52",
@@ -1798,7 +1798,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib53",
@@ -1829,7 +1829,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib54",
@@ -1860,7 +1860,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib55",
@@ -1891,7 +1891,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib56",
@@ -1922,7 +1922,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib57",
@@ -1953,7 +1953,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib58",
@@ -1984,7 +1984,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib59",
@@ -2015,7 +2015,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib60",
@@ -2046,7 +2046,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib61",
@@ -2077,7 +2077,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib62",
@@ -2108,7 +2108,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib63",
@@ -2139,7 +2139,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib64",
@@ -2170,7 +2170,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib65",
@@ -2201,7 +2201,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib66",
@@ -2232,7 +2232,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib67",
@@ -2263,7 +2263,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib68",
@@ -2294,7 +2294,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib69",
@@ -2325,7 +2325,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib70",
@@ -2356,7 +2356,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib71",
@@ -2387,7 +2387,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib72",
@@ -2418,7 +2418,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib73",
@@ -2449,7 +2449,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib74",
@@ -2480,7 +2480,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib75",
@@ -2511,7 +2511,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib76",
@@ -2542,7 +2542,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib77",
@@ -2573,7 +2573,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib78",
@@ -2604,7 +2604,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib79",
@@ -2635,7 +2635,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib80",
@@ -2666,7 +2666,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib81",
@@ -2697,7 +2697,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib82",
@@ -2728,7 +2728,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib83",
@@ -2759,7 +2759,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib84",
@@ -2790,7 +2790,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib85",
@@ -2821,7 +2821,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib86",
@@ -2852,7 +2852,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib87",
@@ -2883,7 +2883,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib88",
@@ -2914,7 +2914,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib89",
@@ -2945,7 +2945,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib90",
@@ -2976,7 +2976,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib91",
@@ -3007,7 +3007,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib92",
@@ -3038,7 +3038,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib93",
@@ -3069,7 +3069,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib94",
@@ -3100,7 +3100,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib95",
@@ -3131,7 +3131,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib96",
@@ -3162,7 +3162,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib97",
@@ -3193,7 +3193,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib98",
@@ -3224,7 +3224,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib99",
@@ -3255,7 +3255,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib100",
@@ -3286,7 +3286,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib101",
@@ -3317,7 +3317,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib102",
@@ -3348,7 +3348,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib103",
@@ -3379,7 +3379,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib104",
@@ -3410,7 +3410,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib105",
@@ -3441,7 +3441,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib106",
@@ -3472,7 +3472,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib107",
@@ -3503,7 +3503,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib108",
@@ -3534,7 +3534,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib109",
@@ -3565,7 +3565,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib110",
@@ -3596,7 +3596,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib111",
@@ -3627,7 +3627,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib112",
@@ -3658,7 +3658,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib113",
@@ -3689,7 +3689,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib114",
@@ -3720,7 +3720,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib115",
@@ -3751,7 +3751,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib116",
@@ -3782,7 +3782,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib117",
@@ -3813,7 +3813,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib118",
@@ -3844,7 +3844,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib119",
@@ -3875,7 +3875,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib120",
@@ -3906,7 +3906,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib121",
@@ -3937,7 +3937,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib122",
@@ -3968,7 +3968,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib123",
@@ -3999,7 +3999,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib124",
@@ -4030,7 +4030,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib125",
@@ -4061,7 +4061,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib126",
@@ -4092,7 +4092,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib127",
@@ -4123,7 +4123,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib128",
@@ -4154,7 +4154,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib129",
@@ -4185,7 +4185,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib130",
@@ -4216,7 +4216,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib131",
@@ -4247,7 +4247,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib132",
@@ -4278,7 +4278,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib133",
@@ -4309,7 +4309,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib134",
@@ -4340,7 +4340,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib135",
@@ -4371,7 +4371,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib136",
@@ -4402,7 +4402,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib137",
@@ -4433,7 +4433,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib138",
@@ -4464,7 +4464,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib139",
@@ -4495,7 +4495,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib140",
@@ -4526,7 +4526,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib141",
@@ -4557,7 +4557,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib142",
@@ -4588,7 +4588,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib143",
@@ -4619,7 +4619,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib144",
@@ -4650,7 +4650,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib145",
@@ -4681,7 +4681,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib146",
@@ -4712,7 +4712,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib147",
@@ -4743,7 +4743,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib148",
@@ -4774,7 +4774,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib149",
@@ -4805,7 +4805,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib150",
@@ -4836,7 +4836,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib151",
@@ -4867,7 +4867,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib152",
@@ -4898,7 +4898,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib153",
@@ -4929,7 +4929,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib154",
@@ -4960,7 +4960,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib155",
@@ -4991,7 +4991,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib156",
@@ -5022,7 +5022,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib157",
@@ -5053,7 +5053,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib158",
@@ -5084,7 +5084,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib159",
@@ -5115,7 +5115,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib160",
@@ -5146,7 +5146,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib161",
@@ -5177,7 +5177,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib162",
@@ -5208,7 +5208,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib163",
@@ -5239,7 +5239,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib164",
@@ -5270,7 +5270,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib165",
@@ -5301,7 +5301,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib166",
@@ -5332,7 +5332,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib167",
@@ -5363,7 +5363,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib168",
@@ -5394,7 +5394,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib169",
@@ -5425,7 +5425,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib170",
@@ -5456,7 +5456,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib171",
@@ -5487,7 +5487,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib172",
@@ -5518,7 +5518,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib173",
@@ -5549,7 +5549,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib174",
@@ -5580,7 +5580,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib175",
@@ -5611,7 +5611,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib176",
@@ -5642,7 +5642,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib177",
@@ -5673,7 +5673,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib178",
@@ -5704,7 +5704,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib179",
@@ -5735,7 +5735,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib180",
@@ -5766,7 +5766,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib181",
@@ -5797,7 +5797,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib182",
@@ -5828,7 +5828,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib183",
@@ -5859,7 +5859,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib184",
@@ -5890,7 +5890,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib185",
@@ -5921,7 +5921,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib186",
@@ -5952,7 +5952,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib187",
@@ -5983,7 +5983,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib188",
@@ -6014,7 +6014,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib189",
@@ -6045,7 +6045,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib190",
@@ -6076,7 +6076,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib191",
@@ -6107,7 +6107,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib192",
@@ -6138,7 +6138,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib193",
@@ -6169,7 +6169,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib194",
@@ -6200,7 +6200,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib195",
@@ -6231,7 +6231,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib196",
@@ -6262,7 +6262,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib197",
@@ -6293,7 +6293,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib198",
@@ -6324,7 +6324,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib199",
@@ -6355,7 +6355,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib200",
@@ -6386,7 +6386,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib201",
@@ -6417,7 +6417,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib202",
@@ -6448,7 +6448,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib203",
@@ -6479,7 +6479,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib204",
@@ -6510,7 +6510,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib205",
@@ -6541,7 +6541,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib206",
@@ -6572,7 +6572,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib207",
@@ -6603,7 +6603,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib208",
@@ -6634,7 +6634,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib209",
@@ -6665,7 +6665,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib210",
@@ -6696,7 +6696,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib211",
@@ -6727,7 +6727,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib212",
@@ -6758,7 +6758,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib213",
@@ -6789,7 +6789,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib214",
@@ -6820,7 +6820,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib215",
@@ -6851,7 +6851,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib216",
@@ -6882,7 +6882,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib217",
@@ -6913,7 +6913,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib218",
@@ -6944,7 +6944,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib219",
@@ -6975,7 +6975,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib220",
@@ -7006,7 +7006,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib221",
@@ -7037,7 +7037,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib222",
@@ -7068,7 +7068,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib223",
@@ -7099,7 +7099,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib224",
@@ -7130,7 +7130,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib225",
@@ -7161,7 +7161,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib226",
@@ -7192,7 +7192,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib227",
@@ -7223,7 +7223,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib228",
@@ -7254,7 +7254,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib229",
@@ -7285,7 +7285,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib230",
@@ -7316,7 +7316,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib231",
@@ -7347,7 +7347,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib232",
@@ -7378,7 +7378,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib233",
@@ -7409,7 +7409,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib234",
@@ -7440,7 +7440,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib235",
@@ -7471,7 +7471,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib236",
@@ -7502,7 +7502,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib237",
@@ -7533,7 +7533,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib238",
@@ -7564,7 +7564,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib239",
@@ -7595,7 +7595,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib240",
@@ -7626,7 +7626,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib241",
@@ -7657,7 +7657,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib242",
@@ -7688,7 +7688,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib243",
@@ -7719,7 +7719,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib244",
@@ -7750,7 +7750,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib245",
@@ -7781,7 +7781,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib246",
@@ -7812,7 +7812,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib247",
@@ -7843,7 +7843,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib248",
@@ -7874,7 +7874,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib249",
@@ -7905,7 +7905,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib250",
@@ -7936,7 +7936,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib251",
@@ -7967,7 +7967,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib252",
@@ -7998,7 +7998,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib253",
@@ -8029,7 +8029,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib254",
@@ -8060,7 +8060,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib255",
@@ -8091,7 +8091,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib256",
@@ -8122,7 +8122,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib257",
@@ -8153,7 +8153,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib258",
@@ -8184,7 +8184,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib259",
@@ -8215,7 +8215,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib260",
@@ -8246,7 +8246,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib261",
@@ -8277,7 +8277,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib262",
@@ -8308,7 +8308,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib263",
@@ -8339,7 +8339,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib264",
@@ -8370,7 +8370,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib265",
@@ -8401,7 +8401,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib266",
@@ -8432,7 +8432,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib267",
@@ -8463,7 +8463,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib268",
@@ -8494,7 +8494,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib269",
@@ -8525,7 +8525,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib270",
@@ -8556,7 +8556,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib271",
@@ -8587,7 +8587,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib272",
@@ -8618,7 +8618,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib273",
@@ -8649,7 +8649,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib274",
@@ -8680,7 +8680,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib275",
@@ -8711,7 +8711,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib276",
@@ -8742,7 +8742,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib277",
@@ -8773,7 +8773,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib278",
@@ -8804,7 +8804,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib279",
@@ -8835,7 +8835,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib280",
@@ -8866,7 +8866,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib281",
@@ -8897,7 +8897,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib282",
@@ -8928,7 +8928,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib283",
@@ -8959,7 +8959,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib284",
@@ -8990,7 +8990,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib285",
@@ -9021,7 +9021,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib286",
@@ -9052,7 +9052,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib287",
@@ -9083,7 +9083,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib288",
@@ -9114,7 +9114,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib289",
@@ -9145,7 +9145,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib290",
@@ -9176,7 +9176,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib291",
@@ -9207,7 +9207,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib292",
@@ -9238,7 +9238,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib293",
@@ -9269,7 +9269,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib294",
@@ -9300,7 +9300,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib295",
@@ -9331,7 +9331,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib296",
@@ -9362,7 +9362,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib297",
@@ -9393,7 +9393,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib298",
@@ -9424,7 +9424,7 @@
       "projectType": "library",
       "architect": {
         "build": {
-          "builder": "@nrwl/workspace:tsc",
+          "builder": "@nrwl/angular:ng-packagr-lite",
           "outputs": ["{options.outputPath}"],
           "options": {
             "outputPath": "dist/libs/lib299",
